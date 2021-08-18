@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Art Supply</string>
+    <string name="art_about">About</string>
+    <string name="name">Name : %s </string>
+    <string name="brand">Brand : %s </string>
+    <string name="price">Price : %s </string>
+    <string name="packet">Packet : %s </string>
+    <string name="avatar">Avatar</string>
+    <string name="aboutpict">About Pict</string>
+    <string name="aboutname">Aline Nindya</string>
+    <string name="aboutemail">alnnindya00@gmail.com</string>
+    <string name="buy">Beli</string>
+    <string name="keranjang">Tambah ke Keranjang</string>
+
+    <string-array name="name">
+        <item>Acrylic Paint</item>
+        <item>Color Pencil</item>
+        <item>Crayon</item>
+        <item>Drawing Pen</item>
+        <item>Eraser</item>
+        <item>Graphite Pencil</item>
+        <item>Paint Brush</item>
+        <item>Sharpener</item>
+        <item>Sketchbook</item>
+        <item>Watercolor</item>
+    </string-array>
+
+    <string-array name="brand">
+        <item>Faber Castell</item>
+        <item>STAEDTLER LUNA</item>
+        <item>TITI</item>
+        <item>JOYKO</item>
+        <item>Staedtler</item>
+        <item>Kasimir</item>
+        <item>Monte Marte</item>
+        <item>VFC Tenwin</item>
+        <item>HAHNEMUHLE</item>
+        <item>HIMI</item>
+    </string-array>
+
+    <string-array name="price">
+        <item>Rp64.950</item>
+        <item>Rp35.000</item>
+        <item>Rp67.999</item>
+        <item>Rp24.700</item>
+        <item>Rp12.250</item>
+        <item>Rp21.000</item>
+        <item>Rp53.000</item>
+        <item>Rp245.000</item>
+        <item>Rp55.000</item>
+        <item>Rp100.000</item>
+    </string-array>
+
+    <string-array name="packet">
+        <item>12 x 12ml acrylic colour Tube, 1 Palette, 1 Grip Brush </item>
+        <item>24 colors and 1 Grip Brush</item>
+        <item>55 crayon colors and Sharpener</item>
+        <item>6pcs ( 0.1, 0.3, 0.5, 0.8, 2.0 dan Brush Pen )</item>
+        <item>Soft Eraser S20 set 2</item>
+        <item>7 Pcs (5B 4B 3B 2B 1B HB 2H)</item>
+        <item>15 brushes</item>
+        <item>Vakum dan Electric Sharpener</item>
+        <item>Sketchbook A6 20S</item>
+        <item>38 colors, Palette, Brush</item>
+    </string-array>
+
+    <string-array name="avatar">
+        <item>@drawable/acrylicpaint</item>
+        <item>@drawable/color_pencil</item>
+        <item>@drawable/crayon</item>
+        <item>@drawable/drawing_pen</item>
+        <item>@drawable/eraser</item>
+        <item>@drawable/graphite_pencil</item>
+        <item>@drawable/paintbrush</item>
+        <item>@drawable/sharpener</item>
+        <item>@drawable/sketchbook</item>
+        <item>@drawable/watercolor</item>
+    </string-array>
+
+    <string-array name="aboutpict">
+        <item>@drawable/fotodiriku</item>
+    </string-array>
+</resources>
