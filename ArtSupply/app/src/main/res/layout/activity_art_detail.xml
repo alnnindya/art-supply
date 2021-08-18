@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true" >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/detail_avatar"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="110dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            app:civ_border_color="#FF909090"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_avatar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="110dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/name"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detail_packet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_name"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="@string/packet"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/detail_brand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_packet"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="@string/brand"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/detail_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_brand"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="@string/price"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/button_beli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_brand"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="5dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="@string/buy" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_beli"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="50dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="@string/keranjang" />
+
+    </LinearLayout>
+</ScrollView>
